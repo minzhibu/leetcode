@@ -29,7 +29,10 @@ public class Test0046 {
 
     @Test
     public void test0046(){
-        List<List<Integer>> permute = permute(new int[]{1, 1, 2});
+        List<List<Integer>> permute = permute(new int[]{1, 2, 3,4,5,6});
+        for(List list : permute){
+            System.out.println(list);
+        }
         System.out.println(permute);
     }
     public List<List<Integer>> permute(int[] nums) {
